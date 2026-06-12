@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #0d0d0d;
+    color: white;
+}
+.profile-section {
+    text-align: center;
+    margin-top: 30px;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+.container {
+    background-color: #1a1a1a;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.1);
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
